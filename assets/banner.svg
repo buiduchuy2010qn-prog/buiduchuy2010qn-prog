@@ -1,66 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Duc Huy — Android apps, Minecraft tools, and web projects</title>
-  <desc id="description">A dark navy profile header with violet, cyan, and green geometric voxel blocks. Build. Play. Explore.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Duc Huy — Code your own world</title>
+  <desc id="description">An electric cyan and violet cyberpunk profile banner with a bold Duc Huy headline, a luminous hexagonal portal, and original floating voxel architecture. Android, Minecraft, and web.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#11182B"/>
-      <stop offset="0.56" stop-color="#0C1222"/>
-      <stop offset="1" stop-color="#15172F"/>
+    <linearGradient id="night" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D1B"/><stop offset="0.47" stop-color="#070A14"/><stop offset="1" stop-color="#111027"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1054 185) rotate(90) scale(270 340)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7160DE" stop-opacity="0.17"/>
-      <stop offset="1" stop-color="#7160DE" stop-opacity="0"/>
+    <radialGradient id="violetAura" cx="0" cy="0" r="1" gradientTransform="translate(1300 218) rotate(90) scale(340 390)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#873BFF" stop-opacity="0.32"/><stop offset="1" stop-color="#873BFF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accent" x1="72" y1="279" x2="426" y2="279" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B099FF"/>
-      <stop offset="0.52" stop-color="#66DDE9"/>
-      <stop offset="1" stop-color="#9EDCA2"/>
+    <radialGradient id="cyanAura" cx="0" cy="0" r="1" gradientTransform="translate(1090 320) rotate(90) scale(230 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D6F1" stop-opacity="0.15"/><stop offset="1" stop-color="#00D6F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="portalCore" cx="0" cy="0" r="1" gradientTransform="translate(1266 215) rotate(90) scale(176 157)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1C32"/><stop offset="0.7" stop-color="#14223E"/><stop offset="1" stop-color="#47237D"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="1098" y1="365" x2="1400" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34F4FF"/><stop offset="0.44" stop-color="#47B9FF"/><stop offset="0.73" stop-color="#B676FF"/><stop offset="1" stop-color="#E088FF"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#91A3CF" stroke-opacity="0.035"/>
-    </pattern>
+    <linearGradient id="letterFace" x1="0" y1="154" x2="0" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/><stop offset="0.73" stop-color="#ECF9FF"/><stop offset="1" stop-color="#A6D7E6"/>
+    </linearGradient>
+    <linearGradient id="underline" x1="97" y1="403" x2="813" y2="403" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40EBF7"/><stop offset="0.48" stop-color="#8B6BFF"/><stop offset="1" stop-color="#8B6BFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61F7EA"/><stop offset="1" stop-color="#228BAF"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="25" x2="50" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#176778"/><stop offset="1" stop-color="#103242"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="50" y1="50" x2="100" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183F67"/><stop offset="1" stop-color="#11233F"/>
+    </linearGradient>
+    <filter id="portalBloom" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="smallBloom" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="canvas"><rect width="1600" height="500" rx="22"/></clipPath>
+    <g id="stoneCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="#26364D"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="#152339"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="#0C172B"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#526B8A" stroke-opacity="0.55"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#597392" stroke-opacity="0.18"/>
+    </g>
+    <g id="energyCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="url(#cubeTop)"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="url(#cubeLeft)"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="url(#cubeRight)"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#71FBEE" stroke-opacity="0.78"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#63CDE0" stroke-opacity="0.25"/>
+      <path d="M8 42L18 47V57L8 52ZM31 69L41 74V84L31 79Z" fill="#36DCC7" fill-opacity="0.6"/>
+      <path d="M59 60L70 54.5V65.5L59 71Z" fill="#48B4DD" fill-opacity="0.6"/>
+      <path d="M35 18L50 10.5L65 18L50 25.5Z" fill="#C9FF83"/>
+    </g>
   </defs>
 
-  <rect width="1280" height="360" rx="20" fill="url(#background)"/>
-  <rect width="1280" height="360" rx="20" fill="url(#grid)"/>
-  <rect width="1280" height="360" rx="20" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="1279" height="359" rx="19.5" stroke="#8595C7" stroke-opacity="0.15"/>
+  <g clip-path="url(#canvas)">
+    <rect width="1600" height="500" fill="url(#night)"/>
+    <rect width="1600" height="500" fill="url(#violetAura)"/>
+    <rect width="1600" height="500" fill="url(#cyanAura)"/>
 
-  <!-- A compact editorial text lockup, kept clear of the voxel illustration. -->
-  <rect x="72" y="72" width="8" height="8" rx="1" fill="#A6E3AE"/>
-  <text x="94" y="83" fill="#A6E3AE" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3">BUILD. PLAY. EXPLORE.</text>
-  <text x="68" y="176" fill="#F2F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2">DUC HUY<tspan fill="#B099FF">.</tspan></text>
-  <text x="72" y="221" fill="#A9B4CD" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="1.7">ANDROID APPS / MINECRAFT TOOLS / WEB PROJECTS</text>
-  <path d="M72 279H426" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M442 279H624" stroke="#2A344D" stroke-width="1"/>
+    <!-- Architectural lines leave generous breathing room around the headline. -->
+    <path d="M0 49H862L907 94H980M0 456H826L866 416H927" stroke="#6C8CB6" stroke-opacity="0.12"/>
+    <path d="M87 49H207M650 456H782" stroke="#6B46BB" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M948 0L790 500M1515 0L1357 500" stroke="#8286BB" stroke-opacity="0.04" stroke-width="40"/>
+    <path d="M0 500L1520 0" stroke="#6791E8" stroke-opacity="0.025" stroke-width="120"/>
 
-  <!-- Original isometric blocks: a small world being built, one piece at a time. -->
-  <path d="M876 274L1037 194L1198 274L1037 354L876 274Z" fill="#070B16" fill-opacity="0.35"/>
-  <path d="M836 251L1037 151L1238 251M876 271L1037 191L1198 271M916 291L1037 231L1158 291" stroke="#8294C5" stroke-opacity="0.09"/>
-  <path d="M916 211L1117 311M956 191L1157 291M996 171L1197 271M876 231L1077 331" stroke="#8294C5" stroke-opacity="0.09"/>
+    <!-- Perspective ground, vanishing behind the portal. -->
+    <g stroke="#6F5AB8" stroke-opacity="0.2" stroke-width="1">
+      <path d="M1266 258L827 500M1266 258L951 500M1266 258L1078 500M1266 258L1204 500M1266 258L1330 500M1266 258L1456 500M1266 258L1582 500M1266 258L1708 500"/>
+      <path d="M1112 342H1419M1061 370H1470M1000 404H1532M929 443H1603M845 489H1687"/>
+    </g>
+    <path d="M1000 404H1532M1266 258L1456 500" stroke="#40DBEE" stroke-opacity="0.16"/>
 
-  <!-- Violet foundation cube. -->
-  <path d="M1023 184L1107 142L1191 184L1107 226L1023 184Z" fill="#A68BEF"/>
-  <path d="M1023 184L1107 226V310L1023 268V184Z" fill="#68549F"/>
-  <path d="M1107 226L1191 184V268L1107 310V226Z" fill="#473E79"/>
-  <path d="M1023 184L1107 226L1191 184M1107 226V310" stroke="#E4D9FF" stroke-opacity="0.16"/>
-  <path d="M1065 205V247L1107 268M1149 205V247L1191 226" stroke="#C8B7F2" stroke-opacity="0.1"/>
+    <!-- A deep, extruded portal with luminous chromatic edges. -->
+    <path d="M1266 37L1422 127V307L1266 397L1110 307V127Z" fill="#4B287A" fill-opacity="0.24" stroke="#9F4FFF" stroke-width="10" filter="url(#portalBloom)"/>
+    <path d="M1281 49L1437 139V319L1281 409L1125 319V139Z" stroke="#251A44" stroke-width="17"/>
+    <path d="M1266 37L1422 127V307L1266 397L1110 307V127Z" fill="url(#portalCore)" stroke="#14162C" stroke-width="18"/>
+    <path d="M1266 37L1422 127V307L1266 397L1110 307V127Z" stroke="url(#neon)" stroke-width="5"/>
+    <path d="M1266 50L1411 134V300L1266 384L1121 300V134Z" stroke="#A7D2FF" stroke-opacity="0.36" stroke-width="1"/>
+    <path d="M1266 66L1397 141V293L1266 368L1135 293V141Z" stroke="#A181E8" stroke-opacity="0.2"/>
+    <path d="M1266 89L1377 153V281L1266 345L1155 281V153Z" stroke="#8586E8" stroke-opacity="0.1"/>
+    <path d="M1144 107L1207 71M1341 80L1408 119M1422 179V251M1351 348L1289 384M1110 173V225" stroke="url(#neon)" stroke-width="10" filter="url(#smallBloom)"/>
+    <path d="M1144 107L1207 71M1341 80L1408 119M1422 179V251M1351 348L1289 384M1110 173V225" stroke="#E3E4FF" stroke-width="2.5"/>
 
-  <!-- Cyan block. -->
-  <path d="M939 184L981 163L1023 184L981 205L939 184Z" fill="#8FE7EB"/>
-  <path d="M939 184L981 205V247L939 226V184Z" fill="#42969E"/>
-  <path d="M981 205L1023 184V226L981 247V205Z" fill="#296879"/>
-  <path d="M939 184L981 205L1023 184M981 205V247" stroke="#DCFFFF" stroke-opacity="0.2"/>
+    <!-- Orbital traces imply movement without animation. -->
+    <path d="M1055 234C1074 120 1307 74 1458 155C1573 217 1408 360 1194 346" stroke="#5DDFF8" stroke-opacity="0.17"/>
+    <path d="M1032 248C1086 359 1398 397 1493 260" stroke="#A45FFF" stroke-opacity="0.38" stroke-dasharray="90 9 3 9"/>
+    <path d="M1174 109L1186 97M1378 331L1390 319" stroke="#73F6EE" stroke-opacity="0.55" stroke-width="2"/>
 
-  <!-- Raised green block. -->
-  <path d="M1023 100L1065 79L1107 100L1065 121L1023 100Z" fill="#C1EDAB"/>
-  <path d="M1023 100L1065 121V163L1023 142V100Z" fill="#7CA873"/>
-  <path d="M1065 121L1107 100V142L1065 163V121Z" fill="#4E775B"/>
-  <path d="M1023 100L1065 121L1107 100M1065 121V163" stroke="#E6FFCF" stroke-opacity="0.25"/>
+    <!-- The hero: an original floating voxel core and a fractured island. -->
+    <ellipse cx="1261" cy="391" rx="153" ry="30" fill="#36A4FB" fill-opacity="0.075"/>
+    <use href="#stoneCube" transform="translate(1124 323) scale(0.91)"/>
+    <use href="#stoneCube" transform="translate(1283 319) scale(1.02)"/>
+    <use href="#stoneCube" transform="translate(1198 344) scale(1.02)"/>
+    <path d="M1124 346L1170 369L1215 346M1249 395L1300 369M1334 344L1385 370" stroke="#A164EE" stroke-width="2"/>
+    <path d="M1170 369V407M1249 395V428" stroke="#38DEEB" stroke-opacity="0.5"/>
+    <use href="#energyCube" transform="translate(1190 146) scale(1.5)"/>
+    <path d="M1190 183.5L1265 146L1340 183.5L1265 221Z" stroke="#7EFCEF" stroke-width="3" filter="url(#smallBloom)"/>
+    <path d="M1190 183.5L1265 146L1340 183.5" stroke="#C2FFF6" stroke-width="2"/>
+    <path d="M1265 309V331M1255 318H1275" stroke="#A2FBE7" stroke-opacity="0.7" stroke-width="2"/>
+    <use href="#energyCube" transform="translate(1048 258) scale(0.6)"/>
+    <use href="#stoneCube" transform="translate(1422 99) scale(0.68)"/>
+    <path d="M1422 116L1456 99L1490 116L1456 133Z" fill="#9660DD" stroke="#C99AFF"/>
+    <path d="M1456 133V170" stroke="#C185FF" stroke-opacity="0.65"/>
+    <use href="#stoneCube" transform="translate(1395 346) scale(0.48)"/>
+    <path d="M1395 358L1419 346L1443 358" stroke="#B6FA7B" stroke-width="2"/>
 
-  <!-- A few quiet pixels keep the motif light. -->
-  <rect x="927" y="97" width="8" height="8" rx="1" fill="#B099FF" fill-opacity="0.75"/>
-  <rect x="1166" y="84" width="5" height="5" rx="1" fill="#77DDE3" fill-opacity="0.75"/>
-  <rect x="899" y="279" width="5" height="5" rx="1" fill="#A6E3AE" fill-opacity="0.6"/>
-  <path d="M866 162H878M872 156V168" stroke="#8B99BA" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- Sparse luminous pixel debris. -->
+    <g fill="#75EEEF">
+      <rect x="1071" y="129" width="7" height="7"/>
+      <rect x="1470" y="257" width="6" height="6"/>
+      <rect x="1171" y="67" width="4" height="4" fill-opacity="0.6"/>
+      <rect x="1338" y="428" width="4" height="4" fill-opacity="0.6"/>
+    </g>
+    <g fill="#B486FF">
+      <rect x="1502" y="204" width="9" height="9"/>
+      <rect x="1062" y="367" width="5" height="5"/>
+      <rect x="1371" y="54" width="5" height="5" fill-opacity="0.65"/>
+    </g>
+    <path d="M1020 207H1030M1025 202V212M1486 334H1496M1491 329V339" stroke="#BEFF8D" stroke-width="2"/>
+    <path d="M1489 62L1504 47M1530 303L1545 288M1003 314L1018 299" stroke="#5E6B9A" stroke-opacity="0.65"/>
+
+    <!-- Crisp main faces with offset chromatic extrusion; readable at thumbnail scale. -->
+    <path d="M96 105H111V120H96Z" fill="#C1FF79"/>
+    <text x="130" y="121" fill="#C1FF79" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4.3">CODE YOUR OWN WORLD</text>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="148" font-weight="900" letter-spacing="-5">
+      <text x="101" y="279" fill="#7840B7" fill-opacity="0.7">DUC HUY</text>
+      <text x="92" y="271" fill="#33CEDD" fill-opacity="0.8">DUC HUY</text>
+      <text x="87" y="265" fill="url(#letterFace)">DUC HUY</text>
+    </g>
+    <text x="98" y="332" fill="#ABBCD3" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="5">ANDROID <tspan fill="#51E8EB">/</tspan> MINECRAFT <tspan fill="#AA7AFF">/</tspan> WEB</text>
+    <path d="M98 403H351L365 389H416L430 403H813" stroke="url(#underline)" stroke-width="2"/>
+    <rect x="98" y="400" width="29" height="6" fill="#51E8EB"/>
+    <path d="M96 365V378M81 378H96" stroke="#50637F" stroke-opacity="0.6"/>
+    <path d="M801 109H816V124" stroke="#50637F" stroke-opacity="0.6"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1599" height="499" rx="21.5" stroke="#849DD6" stroke-opacity="0.18"/>
 </svg>

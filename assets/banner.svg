@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Duc Huy — Android apps, Minecraft tools, and web projects</title>
+  <desc id="description">A dark navy profile header with violet, cyan, and green geometric voxel blocks. Build. Play. Explore.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11182B"/>
+      <stop offset="0.56" stop-color="#0C1222"/>
+      <stop offset="1" stop-color="#15172F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1054 185) rotate(90) scale(270 340)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7160DE" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#7160DE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="72" y1="279" x2="426" y2="279" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B099FF"/>
+      <stop offset="0.52" stop-color="#66DDE9"/>
+      <stop offset="1" stop-color="#9EDCA2"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#91A3CF" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="20" fill="url(#background)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="19.5" stroke="#8595C7" stroke-opacity="0.15"/>
+
+  <!-- A compact editorial text lockup, kept clear of the voxel illustration. -->
+  <rect x="72" y="72" width="8" height="8" rx="1" fill="#A6E3AE"/>
+  <text x="94" y="83" fill="#A6E3AE" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3">BUILD. PLAY. EXPLORE.</text>
+  <text x="68" y="176" fill="#F2F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="2">DUC HUY<tspan fill="#B099FF">.</tspan></text>
+  <text x="72" y="221" fill="#A9B4CD" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="1.7">ANDROID APPS / MINECRAFT TOOLS / WEB PROJECTS</text>
+  <path d="M72 279H426" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M442 279H624" stroke="#2A344D" stroke-width="1"/>
+
+  <!-- Original isometric blocks: a small world being built, one piece at a time. -->
+  <path d="M876 274L1037 194L1198 274L1037 354L876 274Z" fill="#070B16" fill-opacity="0.35"/>
+  <path d="M836 251L1037 151L1238 251M876 271L1037 191L1198 271M916 291L1037 231L1158 291" stroke="#8294C5" stroke-opacity="0.09"/>
+  <path d="M916 211L1117 311M956 191L1157 291M996 171L1197 271M876 231L1077 331" stroke="#8294C5" stroke-opacity="0.09"/>
+
+  <!-- Violet foundation cube. -->
+  <path d="M1023 184L1107 142L1191 184L1107 226L1023 184Z" fill="#A68BEF"/>
+  <path d="M1023 184L1107 226V310L1023 268V184Z" fill="#68549F"/>
+  <path d="M1107 226L1191 184V268L1107 310V226Z" fill="#473E79"/>
+  <path d="M1023 184L1107 226L1191 184M1107 226V310" stroke="#E4D9FF" stroke-opacity="0.16"/>
+  <path d="M1065 205V247L1107 268M1149 205V247L1191 226" stroke="#C8B7F2" stroke-opacity="0.1"/>
+
+  <!-- Cyan block. -->
+  <path d="M939 184L981 163L1023 184L981 205L939 184Z" fill="#8FE7EB"/>
+  <path d="M939 184L981 205V247L939 226V184Z" fill="#42969E"/>
+  <path d="M981 205L1023 184V226L981 247V205Z" fill="#296879"/>
+  <path d="M939 184L981 205L1023 184M981 205V247" stroke="#DCFFFF" stroke-opacity="0.2"/>
+
+  <!-- Raised green block. -->
+  <path d="M1023 100L1065 79L1107 100L1065 121L1023 100Z" fill="#C1EDAB"/>
+  <path d="M1023 100L1065 121V163L1023 142V100Z" fill="#7CA873"/>
+  <path d="M1065 121L1107 100V142L1065 163V121Z" fill="#4E775B"/>
+  <path d="M1023 100L1065 121L1107 100M1065 121V163" stroke="#E6FFCF" stroke-opacity="0.25"/>
+
+  <!-- A few quiet pixels keep the motif light. -->
+  <rect x="927" y="97" width="8" height="8" rx="1" fill="#B099FF" fill-opacity="0.75"/>
+  <rect x="1166" y="84" width="5" height="5" rx="1" fill="#77DDE3" fill-opacity="0.75"/>
+  <rect x="899" y="279" width="5" height="5" rx="1" fill="#A6E3AE" fill-opacity="0.6"/>
+  <path d="M866 162H878M872 156V168" stroke="#8B99BA" stroke-opacity="0.35" stroke-width="1.5"/>
+</svg>

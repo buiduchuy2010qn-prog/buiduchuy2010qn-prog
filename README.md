@@ -59,7 +59,7 @@
       <h3>⚡ <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher">SmoothMine Launcher (Android)</a></h3>
       <p>
         <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/releases/latest"><img src="https://img.shields.io/github/v/release/buiduchuy2010qn-prog/SmoothMineLauncher?label=Release&color=F59E0B&style=flat-square" alt="Release" /></a>
-        <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/blob/v3_openjdk/LICENSE"><img src="https://img.shields.io/badge/License-LGPL--3.0-F59E0B&style=flat-square" alt="LGPL-3.0" /></a>
+        <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/blob/v3_openjdk/LICENSE"><img src="https://img.shields.io/badge/License-LGPL--3.0-F59E0B?style=flat-square" alt="LGPL-3.0" /></a>
         <img src="https://img.shields.io/badge/Engine-SmoothBoost_FPS-10B981?style=flat-square" alt="SmoothBoost" />
       </p>
       <p>Trình khởi chạy <b>Minecraft: Java Edition</b> cho Android tối ưu hóa FPS chuyên sâu: tự động nhận diện GPU (Adreno/Mali/Vulkan), phân bổ ngưỡng RAM chống văng game (<code>lmkd</code>) và cài đặt 1-chạm bộ Mod tăng FPS (Sodium, Lithium, FerriteCore).</p>

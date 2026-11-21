@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Bùi Đức Huy — Independent Open-Source Builder (Dark Theme)</title>
+  <desc id="description">Midnight-obsidian Pure Horizon Glass profile banner for Bùi Đức Huy showcasing Rust, Windows, Android, Minecraft, and Web engineering with a luminous cyan-violet hexagonal portal and floating voxel architecture.</desc>
+  <defs>
+    <linearGradient id="bgNight" x1="0" y1="0" x2="1600" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B17"/>
+      <stop offset="0.5" stop-color="#080D1C"/>
+      <stop offset="1" stop-color="#130F2A"/>
+    </linearGradient>
+    <radialGradient id="violetAura" cx="0" cy="0" r="1" gradientTransform="translate(1310 215) rotate(90) scale(310 370)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanAura" cx="0" cy="0" r="1" gradientTransform="translate(1070 300) rotate(90) scale(220 290)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="textHalo" cx="0" cy="0" r="1" gradientTransform="translate(360 220) rotate(90) scale(220 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="portalCore" cx="0" cy="0" r="1" gradientTransform="translate(1285 210) rotate(90) scale(165 150)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1B33"/>
+      <stop offset="0.68" stop-color="#142343"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </radialGradient>
+    <linearGradient id="neonRim" x1="1125" y1="350" x2="1430" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.45" stop-color="#38BDF8"/>
+      <stop offset="0.75" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#E879F9"/>
+    </linearGradient>
+    <linearGradient id="letterFace" x1="0" y1="150" x2="0" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.72" stop-color="#EAF8FF"/>
+      <stop offset="1" stop-color="#9CD8EC"/>
+    </linearGradient>
+    <linearGradient id="underlineGrad" x1="94" y1="376" x2="880" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pillBg" x1="94" y1="74" x2="620" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1D36" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#1A1538" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67F9ED"/>
+      <stop offset="1" stop-color="#2290B5"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="25" x2="50" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#146478"/>
+      <stop offset="1" stop-color="#0E2E40"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="50" y1="50" x2="100" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183F69"/>
+      <stop offset="1" stop-color="#10213D"/>
+    </linearGradient>
+    <filter id="portalBloom" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="smallBloom" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <clipPath id="canvasClip">
+      <rect width="1600" height="460" rx="22"/>
+    </clipPath>
+    <pattern id="techGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#64748B" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <g id="stoneCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="#25364E"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="#142238"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="#0B1629"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#536E91" stroke-opacity="0.58"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#5F799C" stroke-opacity="0.18"/>
+    </g>
+    <g id="energyCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="url(#cubeTop)"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="url(#cubeLeft)"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="url(#cubeRight)"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#75FCED" stroke-opacity="0.82"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#63CDE0" stroke-opacity="0.25"/>
+      <path d="M8 42L18 47V57L8 52ZM31 69L41 74V84L31 79Z" fill="#34E0CA" fill-opacity="0.65"/>
+      <path d="M59 60L70 54.5V65.5L59 71Z" fill="#4DB8E3" fill-opacity="0.65"/>
+      <path d="M35 18L50 10.5L65 18L50 25.5Z" fill="#C9FF83"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#canvasClip)">
+    <rect width="1600" height="460" fill="url(#bgNight)"/>
+    <rect width="1600" height="460" fill="url(#techGrid)"/>
+    <rect width="1600" height="460" fill="url(#textHalo)"/>
+    <rect width="1600" height="460" fill="url(#violetAura)"/>
+    <rect width="1600" height="460" fill="url(#cyanAura)"/>
+
+    <!-- Subtle diagonal crystal glass sheen -->
+    <path d="M830 0H935L745 460H640Z" fill="#FFFFFF" fill-opacity="0.022"/>
+    <path d="M975 0H1018L828 460H785Z" fill="#38BDF8" fill-opacity="0.02"/>
+
+    <!-- Isometric horizon perspective lines under right portal -->
+    <g stroke="#38BDF8" stroke-opacity="0.10" stroke-width="1">
+      <path d="M980 398H1540M940 426H1560M1020 374H1510"/>
+      <path d="M1110 365L995 455M1195 365L1135 455M1285 365V455M1375 365L1435 455M1460 365L1565 455"/>
+    </g>
+
+    <!-- Hexagonal Crystal Portal -->
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" fill="#4C1D95" fill-opacity="0.25" stroke="#A855F7" stroke-width="10" filter="url(#portalBloom)"/>
+    <path d="M1298 44L1447 130V302L1298 388L1149 302V130Z" stroke="#22173F" stroke-width="15"/>
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" fill="url(#portalCore)" stroke="#11152B" stroke-width="16"/>
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" stroke="url(#neonRim)" stroke-width="4.5"/>
+    <path d="M1285 48L1422 127V285L1285 364L1148 285V127Z" stroke="#BAE6FD" stroke-opacity="0.34" stroke-width="1"/>
+    <path d="M1285 65L1407 135V277L1285 347L1163 277V135Z" stroke="#A78BFA" stroke-opacity="0.20" stroke-width="1"/>
+    <path d="M1285 88L1387 147V265L1285 324L1183 265V147Z" stroke="#818CF8" stroke-opacity="0.12" stroke-width="1"/>
+    <path d="M1168 101L1229 66M1357 75L1420 112M1434 170V240M1365 332L1306 366M1136 164V216" stroke="url(#neonRim)" stroke-width="9" filter="url(#smallBloom)"/>
+    <path d="M1168 101L1229 66M1357 75L1420 112M1434 170V240M1365 332L1306 366M1136 164V216" stroke="#EEF2FF" stroke-width="2.2"/>
+
+    <!-- Orbital traces -->
+    <path d="M1078 225C1098 115 1322 72 1468 149C1578 207 1420 344 1214 330" stroke="#38BDF8" stroke-opacity="0.18"/>
+    <path d="M1056 238C1108 344 1408 380 1500 248" stroke="#A855F7" stroke-opacity="0.40" stroke-dasharray="86 9 4 9"/>
+    <path d="M1196 104L1208 92M1392 316L1404 304" stroke="#67E8F9" stroke-opacity="0.58" stroke-width="2"/>
+
+    <!-- Hero Floating Voxel Core & Island Cubes -->
+    <ellipse cx="1280" cy="368" rx="146" ry="26" fill="#38BDF8" fill-opacity="0.08"/>
+    <use href="#stoneCube" transform="translate(1148 304) scale(0.86)"/>
+    <use href="#stoneCube" transform="translate(1298 300) scale(0.96)"/>
+    <use href="#stoneCube" transform="translate(1218 322) scale(0.96)"/>
+    <path d="M1148 325L1191 346L1234 325M1265 370L1314 346M1346 324L1394 348" stroke="#A855F7" stroke-width="2"/>
+    <path d="M1191 346V382M1265 370V402" stroke="#22D3EE" stroke-opacity="0.5"/>
+    <use href="#energyCube" transform="translate(1213 134) scale(1.42)"/>
+    <path d="M1213 169.5L1284 134L1355 169.5L1284 205Z" stroke="#67F9ED" stroke-width="2.8" filter="url(#smallBloom)"/>
+    <path d="M1213 169.5L1284 134L1355 169.5" stroke="#CFFAFE" stroke-width="2"/>
+    <path d="M1284 290V310M1274 298H1294" stroke="#A7F3D0" stroke-opacity="0.72" stroke-width="2"/>
+    <use href="#energyCube" transform="translate(1078 242) scale(0.56)"/>
+    <use href="#stoneCube" transform="translate(1434 92) scale(0.64)"/>
+    <path d="M1434 108L1466 92L1498 108L1466 124Z" fill="#9333EA" fill-opacity="0.75" stroke="#D8B4FE"/>
+    <path d="M1466 124V158" stroke="#C084FC" stroke-opacity="0.65"/>
+    <use href="#stoneCube" transform="translate(1408 326) scale(0.46)"/>
+    <path d="M1408 337.5L1431 326L1454 337.5" stroke="#BEF264" stroke-width="2"/>
+
+    <!-- Sparse luminous geometric sparks -->
+    <g fill="#67E8F9">
+      <rect x="1096" y="122" width="6" height="6" rx="1"/>
+      <rect x="1480" y="244" width="6" height="6" rx="1"/>
+      <rect x="1194" y="64" width="4" height="4" fill-opacity="0.65"/>
+      <rect x="1352" y="400" width="4" height="4" fill-opacity="0.65"/>
+    </g>
+    <g fill="#C084FC">
+      <rect x="1508" y="192" width="8" height="8" rx="1.5"/>
+      <rect x="1088" y="346" width="5" height="5" rx="1"/>
+      <rect x="1386" y="52" width="5" height="5" fill-opacity="0.65"/>
+    </g>
+    <path d="M1044 196H1054M1049 191V201M1494 316H1504M1499 311V321" stroke="#BEF264" stroke-width="2"/>
+
+    <!-- Left Typography & Frosted Pill -->
+    <rect x="94" y="74" width="654" height="38" rx="19" fill="url(#pillBg)" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.2"/>
+    <circle cx="118" cy="93" r="5" fill="#34F5C5"/>
+    <circle cx="118" cy="93" r="9" fill="#34F5C5" fill-opacity="0.22"/>
+    <text x="136" y="98" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">@buiduchuy2010qn-prog  ·  INDEPENDENT OPEN-SOURCE BUILDER</text>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="-2">
+      <text x="101" y="256" fill="#7C3AED" fill-opacity="0.68">BUI DUC HUY</text>
+      <text x="95" y="249" fill="#22D3EE" fill-opacity="0.82">BUI DUC HUY</text>
+      <text x="91" y="243" fill="url(#letterFace)">BUI DUC HUY</text>
+    </g>
+
+    <text x="96" y="308" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="3.4">
+      RUST  <tspan fill="#BEF264">/</tspan>  WINDOWS  <tspan fill="#22D3EE">/</tspan>  ANDROID  <tspan fill="#A855F7">/</tspan>  MINECRAFT  <tspan fill="#38BDF8">/</tspan>  WEB
+    </text>
+
+    <path d="M96 376H365L381 360H440L456 376H875" stroke="url(#underlineGrad)" stroke-width="2"/>
+    <rect x="96" y="373" width="34" height="6" rx="2" fill="#22D3EE"/>
+    <path d="M94 340V352M82 352H94" stroke="#64748B" stroke-opacity="0.65" stroke-width="1.5"/>
+    <path d="M880 76H894V90" stroke="#64748B" stroke-opacity="0.65" stroke-width="1.5"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1599" height="459" rx="21.5" stroke="#94A3B8" stroke-opacity="0.22"/>
+</svg>

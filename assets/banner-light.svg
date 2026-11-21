@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Bùi Đức Huy — Independent Open-Source Builder (Light Theme)</title>
+  <desc id="description">Pure Horizon Crystal Light profile banner for Bùi Đức Huy showcasing Rust, Windows, Android, Minecraft, and Web engineering with a translucent prism hexagonal portal and floating crystal voxel architecture.</desc>
+  <defs>
+    <linearGradient id="bgLight" x1="0" y1="0" x2="1600" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="0.5" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#F3EEFF"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="translate(1310 215) rotate(90) scale(310 370)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="translate(1070 300) rotate(90) scale(220 290)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientTransform="translate(360 220) rotate(90) scale(220 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="portalLightCore" cx="0" cy="0" r="1" gradientTransform="translate(1285 210) rotate(90) scale(165 150)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.62" stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </radialGradient>
+    <linearGradient id="prismRim" x1="1125" y1="350" x2="1430" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7"/>
+      <stop offset="0.45" stop-color="#0EA5E9"/>
+      <stop offset="0.78" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#C026D3"/>
+    </linearGradient>
+    <linearGradient id="letterDarkFace" x1="0" y1="150" x2="0" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.72" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="underlineLight" x1="94" y1="376" x2="880" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7"/>
+      <stop offset="0.52" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="crystalTop" x1="0" y1="0" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="crystalLeft" x1="0" y1="25" x2="50" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#0369A1"/>
+    </linearGradient>
+    <linearGradient id="crystalRight" x1="50" y1="50" x2="100" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <filter id="prismBloom" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="canvasClipL">
+      <rect width="1600" height="460" rx="22"/>
+    </clipPath>
+    <pattern id="lightGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#64748B" stroke-opacity="0.11" stroke-width="1"/>
+    </pattern>
+    <g id="frostCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="#FFFFFF"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="#DBEAFE"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="#CBD5E1"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#64748B" stroke-opacity="0.42"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#94A3B8" stroke-opacity="0.30"/>
+    </g>
+    <g id="crystalCube">
+      <path d="M0 25L50 0L100 25L50 50Z" fill="url(#crystalTop)"/>
+      <path d="M0 25L50 50V105L0 80Z" fill="url(#crystalLeft)"/>
+      <path d="M50 50L100 25V80L50 105Z" fill="url(#crystalRight)"/>
+      <path d="M0 25L50 0L100 25V80L50 105L0 80V25L50 50L100 25M50 50V105" stroke="#BAE6FD" stroke-opacity="0.90"/>
+      <path d="M25 12.5L75 37.5M75 12.5L25 37.5M25 37.5V92.5M75 37.5V92.5M0 52.5L50 77.5L100 52.5" stroke="#E0F2FE" stroke-opacity="0.35"/>
+      <path d="M8 42L18 47V57L8 52ZM31 69L41 74V84L31 79Z" fill="#7DD3FC" fill-opacity="0.72"/>
+      <path d="M59 60L70 54.5V65.5L59 71Z" fill="#DDD6FE" fill-opacity="0.72"/>
+      <path d="M35 18L50 10.5L65 18L50 25.5Z" fill="#6EE7B7"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#canvasClipL)">
+    <rect width="1600" height="460" fill="url(#bgLight)"/>
+    <rect width="1600" height="460" fill="url(#lightGrid)"/>
+    <rect width="1600" height="460" fill="url(#leftGlow)"/>
+    <rect width="1600" height="460" fill="url(#violetGlow)"/>
+    <rect width="1600" height="460" fill="url(#cyanGlow)"/>
+
+    <!-- Crystal glass sheen -->
+    <path d="M830 0H935L745 460H640Z" fill="#FFFFFF" fill-opacity="0.50"/>
+    <path d="M975 0H1018L828 460H785Z" fill="#FFFFFF" fill-opacity="0.35"/>
+
+    <!-- Isometric perspective lines -->
+    <g stroke="#0284C7" stroke-opacity="0.12" stroke-width="1">
+      <path d="M980 398H1540M940 426H1560M1020 374H1510"/>
+      <path d="M1110 365L995 455M1195 365L1135 455M1285 365V455M1375 365L1435 455M1460 365L1565 455"/>
+    </g>
+
+    <!-- Crystal Prism Portal -->
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" fill="#A855F7" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.40" stroke-width="10" filter="url(#prismBloom)"/>
+    <path d="M1298 44L1447 130V302L1298 388L1149 302V130Z" stroke="#CBD5E1" stroke-opacity="0.65" stroke-width="12"/>
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" fill="url(#portalLightCore)" stroke="#E2E8F0" stroke-width="14"/>
+    <path d="M1285 34L1434 120V292L1285 378L1136 292V120Z" stroke="url(#prismRim)" stroke-width="4.5"/>
+    <path d="M1285 48L1422 127V285L1285 364L1148 285V127Z" stroke="#0284C7" stroke-opacity="0.28" stroke-width="1"/>
+    <path d="M1285 65L1407 135V277L1285 347L1163 277V135Z" stroke="#7C3AED" stroke-opacity="0.20" stroke-width="1"/>
+    <path d="M1285 88L1387 147V265L1285 324L1183 265V147Z" stroke="#6366F1" stroke-opacity="0.14" stroke-width="1"/>
+    <path d="M1168 101L1229 66M1357 75L1420 112M1434 170V240M1365 332L1306 366M1136 164V216" stroke="url(#prismRim)" stroke-width="3.2"/>
+
+    <!-- Orbital traces -->
+    <path d="M1078 225C1098 115 1322 72 1468 149C1578 207 1420 344 1214 330" stroke="#0284C7" stroke-opacity="0.24"/>
+    <path d="M1056 238C1108 344 1408 380 1500 248" stroke="#7C3AED" stroke-opacity="0.34" stroke-dasharray="86 9 4 9"/>
+    <path d="M1196 104L1208 92M1392 316L1404 304" stroke="#0EA5E9" stroke-opacity="0.55" stroke-width="2"/>
+
+    <!-- Hero Voxel Core & Frosted Cubes -->
+    <ellipse cx="1280" cy="370" rx="146" ry="26" fill="#0F172A" fill-opacity="0.08" filter="url(#softShadow)"/>
+    <use href="#frostCube" transform="translate(1148 304) scale(0.86)"/>
+    <use href="#frostCube" transform="translate(1298 300) scale(0.96)"/>
+    <use href="#frostCube" transform="translate(1218 322) scale(0.96)"/>
+    <path d="M1148 325L1191 346L1234 325M1265 370L1314 346M1346 324L1394 348" stroke="#7C3AED" stroke-opacity="0.72" stroke-width="2"/>
+    <path d="M1191 346V382M1265 370V402" stroke="#0284C7" stroke-opacity="0.45"/>
+    <use href="#crystalCube" transform="translate(1213 134) scale(1.42)"/>
+    <path d="M1213 169.5L1284 134L1355 169.5" stroke="#FFFFFF" stroke-width="2.5"/>
+    <path d="M1284 290V310M1274 298H1294" stroke="#059669" stroke-opacity="0.7" stroke-width="2"/>
+    <use href="#crystalCube" transform="translate(1078 242) scale(0.56)"/>
+    <use href="#frostCube" transform="translate(1434 92) scale(0.64)"/>
+    <path d="M1434 108L1466 92L1498 108L1466 124Z" fill="#C4B5FD" stroke="#7C3AED"/>
+    <path d="M1466 124V158" stroke="#7C3AED" stroke-opacity="0.55"/>
+    <use href="#frostCube" transform="translate(1408 326) scale(0.46)"/>
+    <path d="M1408 337.5L1431 326L1454 337.5" stroke="#059669" stroke-width="2"/>
+
+    <!-- Sparse geometric sparks -->
+    <g fill="#0284C7">
+      <rect x="1096" y="122" width="6" height="6" rx="1"/>
+      <rect x="1480" y="244" width="6" height="6" rx="1"/>
+      <rect x="1194" y="64" width="4" height="4" fill-opacity="0.65"/>
+      <rect x="1352" y="400" width="4" height="4" fill-opacity="0.65"/>
+    </g>
+    <g fill="#7C3AED">
+      <rect x="1508" y="192" width="8" height="8" rx="1.5"/>
+      <rect x="1088" y="346" width="5" height="5" rx="1"/>
+      <rect x="1386" y="52" width="5" height="5" fill-opacity="0.65"/>
+    </g>
+    <path d="M1044 196H1054M1049 191V201M1494 316H1504M1499 311V321" stroke="#059669" stroke-width="2"/>
+
+    <!-- Left Typography & Frosted Pill -->
+    <rect x="94" y="74" width="654" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.88" stroke="#0EA5E9" stroke-opacity="0.34" stroke-width="1.2"/>
+    <circle cx="118" cy="93" r="5" fill="#059669"/>
+    <circle cx="118" cy="93" r="9" fill="#059669" fill-opacity="0.18"/>
+    <text x="136" y="98" fill="#0369A1" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">@buiduchuy2010qn-prog  ·  INDEPENDENT OPEN-SOURCE BUILDER</text>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="-2">
+      <text x="101" y="256" fill="#A855F7" fill-opacity="0.28">BUI DUC HUY</text>
+      <text x="95" y="249" fill="#38BDF8" fill-opacity="0.45">BUI DUC HUY</text>
+      <text x="91" y="243" fill="url(#letterDarkFace)">BUI DUC HUY</text>
+    </g>
+
+    <text x="96" y="308" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="3.4">
+      RUST  <tspan fill="#059669">/</tspan>  WINDOWS  <tspan fill="#0284C7">/</tspan>  ANDROID  <tspan fill="#7C3AED">/</tspan>  MINECRAFT  <tspan fill="#EA580C">/</tspan>  WEB
+    </text>
+
+    <path d="M96 376H365L381 360H440L456 376H875" stroke="url(#underlineLight)" stroke-width="2.2"/>
+    <rect x="96" y="373" width="34" height="6" rx="2" fill="#0284C7"/>
+    <path d="M94 340V352M82 352H94" stroke="#94A3B8" stroke-opacity="0.75" stroke-width="1.5"/>
+    <path d="M880 76H894V90" stroke="#94A3B8" stroke-opacity="0.75" stroke-width="1.5"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1599" height="459" rx="21.5" stroke="#CBD5E1"/>
+</svg>

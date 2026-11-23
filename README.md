@@ -17,7 +17,6 @@
   <a href="https://buiduchuy2010qn-prog.github.io/blockway-launcher/"><img src="https://img.shields.io/badge/🚀_BlockWay_Launcher-v42.6.3_PRO-22C55E?style=for-the-badge" alt="BlockWay Launcher" /></a>
   <a href="https://github.com/buiduchuy2010qn-prog/minehost-android/releases/latest"><img src="https://img.shields.io/badge/📱_MineHost_Pro-v3.2.1_ARM64-8B5CF6?style=for-the-badge" alt="MineHost Pro" /></a>
   <a href="https://buiduchuy2010qn-prog.github.io/kumo/"><img src="https://img.shields.io/badge/☁️_Kumo_Desktop-v1.1.28_Win32-0EA5E9?style=for-the-badge" alt="Kumo Desktop" /></a>
-  <a href="https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest"><img src="https://img.shields.io/badge/📸_Duchi_Locket-v2.1.35_OTA-F43F5E?style=for-the-badge" alt="Duchi Locket OTA" /></a>
 </p>
 
 <p align="center">
@@ -78,7 +77,7 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>⚡ <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher">SmoothMine Launcher</a></h3>
       <p>
         <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/releases/latest"><img src="https://img.shields.io/github/v/release/buiduchuy2010qn-prog/SmoothMineLauncher?label=Release&amp;color=F59E0B&amp;style=flat-square" alt="SmoothMine Release" /></a>
@@ -87,16 +86,6 @@
       </p>
       <p>Trình khởi chạy <b>Minecraft: Java Edition</b> trên Android tối ưu FPS: nhận diện GPU Adreno/Mali/Vulkan, phân bổ RAM chống <code>lmkd</code> và cài 1-chạm gói Mod tăng tốc Sodium, Lithium, FerriteCore.</p>
       <p><a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/releases/latest">📥 Tải APK</a> · <a href="https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/blob/v3_openjdk/NOTICE.md">📜 NOTICE</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📸 <a href="https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest">Duchi Locket (Android OTA)</a></h3>
-      <p>
-        <a href="https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest"><img src="https://img.shields.io/badge/OTA-v2.1.35-F43F5E?style=flat-square" alt="Duchi Locket v2.1.35" /></a>
-        <img src="https://img.shields.io/badge/Private_Source-MIT_Base-64748B?style=flat-square" alt="Private Source MIT Base" />
-        <img src="https://img.shields.io/badge/Stack-Capacitor_%C2%B7_CameraX-3DDC84?style=flat-square" alt="Capacitor CameraX" />
-      </p>
-      <p>Ứng dụng chia sẻ khoảnh khắc 120Hz trên Android với <b>DualCam</b>, <b>Studio vẽ &amp; Photobooth offline</b>, chủ đề kính trong suốt và cập nhật <b>OTA ký xác thực SHA-256</b>.</p>
-      <p><a href="https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest">📥 Tải APK OTA v2.1.35</a> · <a href="https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases">📦 Lịch sử OTA</a></p>
     </td>
   </tr>
 </table>
@@ -148,7 +137,6 @@
 | **[buiduchuy2010qn-prog](https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog)** | `MIT` | © 2026 **Bùi Đức Huy (`@buiduchuy2010qn-prog`)** — Hồ sơ cá nhân &amp; tài nguyên SVG | [LICENSE](./LICENSE) |
 | **[blockway-launcher](https://github.com/buiduchuy2010qn-prog/blockway-launcher)** | `MIT` | © 2026 **Bùi Đức Huy** · `rust-engine/` kế thừa từ **[horizon-rust/horizon](https://github.com/horizon-rust/horizon)** ở các bản snapshot trước `2026-11-15` (giai đoạn upstream áp dụng `MIT`, trước PR `#17111` chuyển sang `LGPL-3.0-or-later`) | [LICENSE](https://github.com/buiduchuy2010qn-prog/blockway-launcher/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/blockway-launcher/blob/main/NOTICE.md) |
 | **[blockway-rust-engine](https://github.com/buiduchuy2010qn-prog/blockway-rust-engine)** | `MIT` | Kế thừa **[horizon-rust/horizon](https://github.com/horizon-rust/horizon)** (© Ludovic Marie &amp; Horizon contributors, snapshot trước `2026-11-15` theo `MIT`); phần đa phiên bản &amp; `HeapCompact` © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/blockway-rust-engine/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/blockway-rust-engine/blob/main/NOTICE.md) |
-| **[Duchi Locket (Android OTA)](https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest)** | `Private Source (MIT Base)` | Kế thừa nền tảng `MIT`: **[Client-Locket-Dio](https://github.com/doi2523/Client-Locket-Dio)** (© 2025 **Đào Văn Đôi / `@doi2523`**) &amp; **[locketlam](https://github.com/leanhminh2104/locketlam)** (© 2026 **Lê Văn Anh Minh / `@leanhminh2104`**); Android native bridge © 2026 **Bùi Đức Huy** | [OTA Release](https://github.com/buiduchuy2010qn-prog/buiduchuy2010qn-prog/releases/tag/locket-ota-latest) |
 | **[minehost-android](https://github.com/buiduchuy2010qn-prog/minehost-android)** | `GPL-3.0-or-later` | Kế thừa **[lovehutaocute/Minexa](https://github.com/lovehutaocute/Minexa)**; điều phối **[Pumpkin-MC/Pumpkin](https://github.com/Pumpkin-MC/Pumpkin)** (`GPL-3.0`), GeyserMC (`MIT`); nâng cấp © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/minehost-android/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/minehost-android/blob/main/NOTICE) |
 | **[SmoothMineLauncher](https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher)** | `LGPL-3.0` | Kế thừa **PojavLauncherTeam** &amp; **[AngelAuraMC/Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android)**; tối ưu SmoothBoost © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/blob/v3_openjdk/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/SmoothMineLauncher/blob/v3_openjdk/NOTICE.md) |
 | **[kumo](https://github.com/buiduchuy2010qn-prog/kumo)** | `MIT` | © 2026 **Bùi Đức Huy (`@buiduchuy2010qn-prog`)** · Cảm hứng ý tưởng từ [@rama2555/nusa](https://github.com/rama2555/nusa) | [LICENSE](https://github.com/buiduchuy2010qn-prog/kumo/blob/main/LICENSE) |
@@ -163,7 +151,7 @@
 
 > **⚖️ Tuyên bố Nhãn hiệu &amp; Miễn trừ Trách nhiệm (Trademark &amp; Non-Affiliation Disclaimer):**
 > - **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
-> - **Minecraft** là nhãn hiệu đã đăng ký của **Mojang Synergies AB / Microsoft Corporation**; **Windows** là nhãn hiệu của **Microsoft Corporation**; **Android** là nhãn hiệu của **Google LLC**; **Dynamic Island** là nhãn hiệu của **Apple Inc.**; **Locket** là nhãn hiệu thuộc **Locket Labs, Inc.**
+> - **Minecraft** là nhãn hiệu đã đăng ký của **Mojang Synergies AB / Microsoft Corporation**; **Windows** là nhãn hiệu của **Microsoft Corporation**; **Android** là nhãn hiệu của **Google LLC**; **Dynamic Island** là nhãn hiệu của **Apple Inc.**
 > - Toàn bộ các kho mã nguồn và bản phát hành tại đây là dự án độc lập phục vụ mục đích học tập, nghiên cứu kỹ thuật và cộng đồng, không liên kết hay được chứng thực bởi các tổ chức trên và được cung cấp nguyên trạng (*"AS IS"*) không kèm bảo đảm thương mại.
 
 ---

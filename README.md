@@ -14,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="https://buiduchuy2010qn-prog.github.io/blockway-launcher/"><img src="https://img.shields.io/badge/🚀_BlockWay_Launcher-v42.6.3_PRO-22C55E?style=for-the-badge" alt="BlockWay Launcher" /></a>
-  <a href="https://github.com/buiduchuy2010qn-prog/minehost-android/releases/latest"><img src="https://img.shields.io/badge/📱_MineHost_Pro-v3.2.1_ARM64-8B5CF6?style=for-the-badge" alt="MineHost Pro" /></a>
+  <a href="https://buiduchuy2010qn-prog.github.io/blockway-launcher/"><img src="https://img.shields.io/badge/🚀_BlockWay_Launcher-v42.7.0_PRO-22C55E?style=for-the-badge" alt="BlockWay Launcher" /></a>
+  <a href="https://github.com/buiduchuy2010qn-prog/minehost-android/releases/latest"><img src="https://img.shields.io/badge/📱_MineHost_Pro-v3.3.0_ARM64-8B5CF6?style=for-the-badge" alt="MineHost Pro" /></a>
   <a href="https://buiduchuy2010qn-prog.github.io/kumo/"><img src="https://img.shields.io/badge/☁️_Kumo_Desktop-v1.1.28_Win32-0EA5E9?style=for-the-badge" alt="Kumo Desktop" /></a>
 </p>
 
@@ -51,7 +51,7 @@
         <img src="https://img.shields.io/badge/Android-ARM64-3DDC84?style=flat-square" alt="Android ARM64" />
       </p>
       <p>Ứng dụng mở máy chủ <b>Minecraft Java &amp; Bedrock PE</b> trực tiếp trên Android ARM64 với 3 chế độ nhân (Java Mod · Java Turbo · Pumpkin Rust 0% Java), Crossplay GeyserMC và Playit.gg.</p>
-      <p><a href="https://github.com/buiduchuy2010qn-prog/minehost-android/releases/latest">📥 Tải APK v3.2.1</a> · <a href="https://github.com/buiduchuy2010qn-prog/minehost-android/blob/main/NOTICE">📜 NOTICE</a></p>
+      <p><a href="https://github.com/buiduchuy2010qn-prog/minehost-android/releases/latest">📥 Tải APK v3.3.0</a> · <a href="https://github.com/buiduchuy2010qn-prog/minehost-android/blob/main/NOTICE">📜 NOTICE</a></p>
     </td>
   </tr>
   <tr>
@@ -99,6 +99,7 @@
 | **[Mochy-Music](https://github.com/buiduchuy2010qn-prog/Mochy-Music)** | [![Mochy](https://img.shields.io/github/v/release/buiduchuy2010qn-prog/Mochy-Music?label=Release&amp;color=A855F7&amp;style=flat-square)](https://github.com/buiduchuy2010qn-prog/Mochy-Music/releases/latest) | `GPL-3.0` | Trình nghe nhạc Android / Windows / Linux Việt hóa toàn diện, không quảng cáo &amp; hỗ trợ OTA. |
 | **[misterdownloadmanager](https://github.com/buiduchuy2010qn-prog/misterdownloadmanager)** | [![Mister DM](https://img.shields.io/github/v/release/buiduchuy2010qn-prog/misterdownloadmanager?label=Release&amp;color=06B6D4&amp;style=flat-square)](https://github.com/buiduchuy2010qn-prog/misterdownloadmanager/releases/latest) | `GPL-3.0-or-later` | Trình quản lý tải xuống đa luồng viết bằng Rust kèm tiện ích trình duyệt Chromium / Firefox &amp; OTA. |
 | **[Dolphy-App](https://github.com/buiduchuy2010qn-prog/Dolphy-App)** | [![Dolphy](https://img.shields.io/github/v/release/buiduchuy2010qn-prog/Dolphy-App?label=Release&amp;color=10B981&amp;style=flat-square)](https://github.com/buiduchuy2010qn-prog/Dolphy-App/releases/latest) | `GPL-3.0` | Bộ công cụ Android nghiên cứu giao thức không dây NFC, BLE &amp; Hồng ngoại (bản Việt hóa). |
+| **[FlClash](https://github.com/buiduchuy2010qn-prog/FlClash)** | [![FlClash](https://img.shields.io/github/v/release/buiduchuy2010qn-prog/FlClash?label=Release&amp;color=3B82F6&amp;style=flat-square)](https://github.com/buiduchuy2010qn-prog/FlClash/releases/latest) | `GPL-3.0` | Ứng dụng Proxy ClashMeta (`mihomo`) mã nguồn mở cho Android, bản Việt hóa APK không quảng cáo. |
 | **[nova-mobile-os](https://github.com/buiduchuy2010qn-prog/nova-mobile-os)** | [`v16.0-vn`](https://github.com/buiduchuy2010qn-prog/nova-mobile-os/releases/tag/v16.0-vn) | `MIT` | Đóng gói ROM Android 16 Hybrid Lite (<code>system.img</code> DSU Dual-Boot không xóa ROM gốc) cho Xiaomi 8. |
 | **[xe-tui-mu](https://github.com/buiduchuy2010qn-prog/xe-tui-mu)** | [Live Web](https://xe-tui-mu.vercel.app) | `MIT` | Trò chơi web xé túi mù giải trí tương tác xây dựng với React 19, Vite &amp; Tailwind CSS. |
 | **[nacachuacute](https://github.com/buiduchuy2010qn-prog/nacachuacute)** · **[webtotinh](https://github.com/buiduchuy2010qn-prog/webtotinh)** | [Na Cà Chua](https://buiduchuy2010qn-prog.github.io/nacachuacute/) · [Web Tỏ Tình](https://buiduchuy2010qn-prog.github.io/webtotinh/) | `MIT` | Mini-game Blind Box phong cách Doodle &amp; thiệp tương tác hoạt họa phát hành qua GitHub Pages. |
@@ -143,6 +144,7 @@
 | **[misterdownloadmanager](https://github.com/buiduchuy2010qn-prog/misterdownloadmanager)** | `GPL-3.0-or-later` | Tác phẩm gốc © 2026 **Ahmed Nefzaoui** ([anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager)); bản fork nâng cấp © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/misterdownloadmanager/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/misterdownloadmanager/blob/main/NOTICE.md) |
 | **[Mochy-Music](https://github.com/buiduchuy2010qn-prog/Mochy-Music)** | `GPL-3.0` | Tác giả gốc **P ASHOKAN (`@realidkroo`)** &amp; **`@realkeichi`** (trên nền `@vivizzz007` &amp; `@mostafaalagamy`); Việt hóa &amp; OTA © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/Mochy-Music/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/Mochy-Music/blob/main/NOTICE.md) |
 | **[Dolphy-App](https://github.com/buiduchuy2010qn-prog/Dolphy-App)** | `GPL-3.0` | Tác giả gốc **[unvoiddd/Dolphy-App](https://github.com/unvoiddd/Dolphy-App)** (ZalexDev, ars3nb, Astrocodee); bản Việt hóa © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/Dolphy-App/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/Dolphy-App/blob/main/NOTICE.md) |
+| **[FlClash](https://github.com/buiduchuy2010qn-prog/FlClash)** | `GPL-3.0` | Tác giả gốc **[chen08209/FlClash](https://github.com/chen08209/FlClash)** (nhân `mihomo` / Clash.Meta); bản Việt hóa APK © 2026 **Bùi Đức Huy** | [LICENSE](https://github.com/buiduchuy2010qn-prog/FlClash/blob/main/LICENSE) · [NOTICE](https://github.com/buiduchuy2010qn-prog/FlClash/blob/main/NOTICE.md) |
 | **[nova-mobile-os](https://github.com/buiduchuy2010qn-prog/nova-mobile-os)** | `MIT` | © 2026 **Bùi Đức Huy** (AOSP research) · Release `v16.0-vn` có kèm APK từ **[Lawnchair](https://github.com/LawnchairLauncher/lawnchair)** (`Apache-2.0`) | [LICENSE](https://github.com/buiduchuy2010qn-prog/nova-mobile-os/blob/main/LICENSE) |
 | **[xe-tui-mu](https://github.com/buiduchuy2010qn-prog/xe-tui-mu)** | `MIT` | © 2026 **Bùi Đức Huy (`@buiduchuy2010qn-prog`)** | [LICENSE](https://github.com/buiduchuy2010qn-prog/xe-tui-mu/blob/main/LICENSE) |
 | **[nacachuacute](https://github.com/buiduchuy2010qn-prog/nacachuacute)** · **[webtotinh](https://github.com/buiduchuy2010qn-prog/webtotinh)** | `MIT` | © 2026 **Bùi Đức Huy (`@buiduchuy2010qn-prog`)** | [LICENSE (Na Cà Chua)](https://github.com/buiduchuy2010qn-prog/nacachuacute/blob/main/LICENSE) · [LICENSE (Web Tỏ Tình)](https://github.com/buiduchuy2010qn-prog/webtotinh/blob/main/LICENSE) |
